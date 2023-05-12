@@ -8,4 +8,4 @@ After connecting SPOT SDK's estop, we can run the navigation script. The navigat
 
 # LERF Scripts
 
-explain added files here
+We edit the rendering function in the LERF pipeline to calculate the relevancy map for six views, rotated around a virtual origin. Using these views, we find the region of highest relevancy and propagate this location to our script that transforms it from virtual LERF space to Spot real-world space. 
